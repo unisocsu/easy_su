@@ -4,4 +4,5 @@
     <string name="about">האפליקציה פותחה ע"י @kernel ממתמחים טופ\n האפליקציה בשלבי פיתוח אם אתה מעוניין לעזור לי\n פנה אליי בצ\'אט האישי \n או באימייל\n rm0557603971@gmail.com</string>
 	<string name="check_button">בדוק</string>
 	<string name="show_prop_button">הצג build.prop</string>
+	<string name="run_button">הרץ ופתח מסוף</string>
 </resources>

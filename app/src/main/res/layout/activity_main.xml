@@ -20,4 +20,10 @@ android:text="@string/check_button"/>
         android:layout_height="wrap_content"
         android:text="@string/show_prop_button"
         android:visibility="gone" />
+		<Button
+		android:id="@+id/runButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/run_button"
+		android:visibility="gone" />
 		</LinearLayout>

@@ -19,5 +19,11 @@ public class MainActivity extends Activity {
 protected  void onCreate (Bundle x) {
 	super.onCreate(x);
 	//שימו לב הbundle שונה לx בכוונה
-	 setContentView R.layout.activity_main);
-	 checkButton findViewByID check_button
+	 setContentView (R.layout.activity_main);
+	 checkButton = findViewById (R.id.checkbutton);
+	 showPropButton = findViewById (R.id.showPropButton);
+	 runButton = findViewById (R.id.runButton);
+	 deviceInfoText = findViewById(R.id.deviceInfoText);
+	 checkButton.setOnClickListener (new View.OnClickListener(){
+		 @Override
+	 public void onClick (View v){
