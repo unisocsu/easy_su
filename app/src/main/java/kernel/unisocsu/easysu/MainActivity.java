@@ -1,0 +1,23 @@
+```java
+package kernel.unisocsu.easysu;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.os.Build;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+
+public class MainActivity extends Activity {
+	private Button checkButton;
+	private TextView deviceInfoText;
+	private Button runButton;
+	private Button showPropButton;
+	private String deviceInfo;
+	@Override
+protected  void onCreate (Bundle x) {
+	super.onCreate(x);
+	//שימו לב הbundle שונה לx בכוונה
+	 setContentView R.layout.activity_main);
+	 checkButton findViewByID check_button
