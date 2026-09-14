@@ -27,3 +27,13 @@ protected  void onCreate (Bundle x) {
 	 checkButton.setOnClickListener (new View.OnClickListener(){
 		 @Override
 	 public void onClick (View v){
+		 checkDevice();
+	 }
+	 }
+	 );
+}
+private void checkDevice () {
+	String chipinfo = Build.HARDWARE;
+	String androidVersion = Build.VERSION.RELEASE;
+	int apiVersion = Build.VERSION.SDK_INT;
+	
